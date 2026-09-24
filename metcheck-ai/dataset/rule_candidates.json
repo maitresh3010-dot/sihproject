@@ -1,0 +1,340 @@
+[
+  {
+    "candidateId": "CAND-001",
+    "ruleId": "LM-005",
+    "topic": "mrp",
+    "field": "mrp",
+    "requirement": "‘Maximum or Max. retail price Rs...../=...... inclusive of all taxes or in the form\nMRP RS....../ Zo. incl., of all taxes after taking into account the fraction of less\nProvided that for reducing the Maximum Retail Price (MRP), a sticker with the\nrevised lower MRP (inclusive of all taxes) may be affixed and the same shall not",
+    "matchedKeywords": [
+      "maximum retail price",
+      "mrp",
+      "retail price",
+      "inclusive of all taxes"
+    ],
+    "section": "Preamble",
+    "sourcePage": 1,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-002",
+    "ruleId": "LM-004",
+    "topic": "net_quantity",
+    "field": "netQuantity",
+    "requirement": "(e) “Maximum permissible error”, in relation to the quantity contained in an\n(f) “net quantity”, in relation to commodity contained in a package, means the\nquantity by weight, measure or number of such commodity contained in that\nplace and on line information grouped together in other place;\n(i) “quantity” in relation to commodity contained in a package, means the",
+    "matchedKeywords": [
+      "net quantity",
+      "net content",
+      "standard package",
+      "quantity",
+      "weight",
+      "volume",
+      "measure"
+    ],
+    "section": "Preamble",
+    "sourcePage": 1,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-003",
+    "ruleId": "LM-002",
+    "topic": "maker",
+    "field": null,
+    "requirement": "consideration, and includes a commission agent who carries on such business on\nbehalf of any principal, but does not include a manufacturer who manufactures\nany commodity which is sold or distributed in a packaged form except where\nsuch commodity is sold by such manufacturer to any other person other than a\n(d) “manufacturer” in relation to any commodity in packaged form, means a\nand includes a person or firm which puts, or causes to be put, any mark on any\npackaged commodity, not produced, made or manufactured by him or it, and the",
+    "matchedKeywords": [
+      "manufacturer",
+      "packer",
+      "importer",
+      "marketed by",
+      "manufactured by",
+      "packed by"
+    ],
+    "section": "Preamble",
+    "sourcePage": 1,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-004",
+    "ruleId": "LM-001",
+    "topic": "product_name",
+    "field": "productName",
+    "requirement": "Explanation II. - If the brand name and address of the brand owner appear on\n(b) The common or generic names of the commodity contained in the package",
+    "matchedKeywords": [
+      "generic name",
+      "brand name"
+    ],
+    "section": "Preamble",
+    "sourcePage": 1,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-005",
+    "ruleId": "LM-003",
+    "topic": "address",
+    "field": "address",
+    "requirement": "Explanation.- The existence of packages without the declaration of retail sale\nprice within the manufacturer’s premises shall not be construed as a violation of\nthese rules and it shall be ensured that all packages leaving the premises of\n(a) the name and address of the manufacturer, or where the manufacturer is\nnot the packer, the name and address of the manufacturer and packer and for",
+    "matchedKeywords": [
+      "address",
+      "premises"
+    ],
+    "section": "Preamble",
+    "sourcePage": 1,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-006",
+    "ruleId": "LM-006",
+    "topic": "date",
+    "field": null,
+    "requirement": "(d) The month and year in which the commodity is manufactured or pre-packed\nProvided that a manufacturer may indicate the month and year using a rubber\n(A) no declaration as to the month and year in which the commodity is\nProvided that the said provision shall not apply to the packages containing food\nproducts, where the ‘Best before or Use before’ period is ninety days or less from\nthe date of manufacture or packing,’",
+    "matchedKeywords": [
+      "date of manufacture",
+      "month and year",
+      "best before"
+    ],
+    "section": "Preamble",
+    "sourcePage": 1,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-007",
+    "ruleId": "LM-007",
+    "topic": "consumer_care",
+    "field": "consumerCare",
+    "requirement": "address, if available, of the person who can be or the office which can be,\ncontacted, in case of consumer complaints. ,\n(i) a complaint is received by the Director or the Controller or any Legal",
+    "matchedKeywords": [
+      "complaint"
+    ],
+    "section": "Preamble",
+    "sourcePage": 1,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-008",
+    "ruleId": "LM-008",
+    "topic": "expiry",
+    "field": "expiry",
+    "requirement": "Airways, Railways, Hotels, Hospitals or any other service institutions who buy\npackaged commodities directly from the manufacturer for use by that institution;\ncommodities directly from the manufacturer for use by that industry.\ncase may be extend the time during which such packaging material may be\nused, and , where any such packaging material is exhausted before the expiry of\nProvided that the said provision shall not apply to the packages containing food\nproducts, where the ‘Best before or Use before’ period is ninety days or less from",
+    "matchedKeywords": [
+      "expiry",
+      "use by",
+      "best before"
+    ],
+    "section": "Preamble",
+    "sourcePage": 1,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-009",
+    "ruleId": "LM-004",
+    "topic": "net_quantity",
+    "field": "netQuantity",
+    "requirement": "(c ) the total number of retail package contained in such wholesale package or\nthe net quantity in terms of standard units of weights, measures or number of",
+    "matchedKeywords": [
+      "net quantity",
+      "quantity",
+      "weight",
+      "measure"
+    ],
+    "section": "CHAPTER III",
+    "sourcePage": 66,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-010",
+    "ruleId": "LM-002",
+    "topic": "maker",
+    "field": null,
+    "requirement": "conspicuous declaration as to —\n(a) The name and address of the manufacturer or importer or where the\nmanufacturer or importer is not the packer, of the packer; |",
+    "matchedKeywords": [
+      "manufacturer",
+      "packer",
+      "importer"
+    ],
+    "section": "CHAPTER III",
+    "sourcePage": 66,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-011",
+    "ruleId": "LM-003",
+    "topic": "address",
+    "field": "address",
+    "requirement": "conspicuous declaration as to —\n(a) The name and address of the manufacturer or importer or where the",
+    "matchedKeywords": [
+      "address"
+    ],
+    "section": "CHAPTER III",
+    "sourcePage": 66,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-012",
+    "ruleId": "LM-002",
+    "topic": "maker",
+    "field": null,
+    "requirement": "25. Restrictions on sale of export packages in India.-An export package\nshall not be sold in India unless the manufacturer or packer has re-packed or",
+    "matchedKeywords": [
+      "manufacturer",
+      "packer"
+    ],
+    "section": "CHAPTER IV",
+    "sourcePage": 67,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-013",
+    "ruleId": "LM-005",
+    "topic": "mrp",
+    "field": "mrp",
+    "requirement": "less, if sold by weight or measure; |\nProvided that the declaration in respect of maximum retail price and net quantity",
+    "matchedKeywords": [
+      "maximum retail price",
+      "retail price"
+    ],
+    "section": "CHAPTER V",
+    "sourcePage": 67,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-014",
+    "ruleId": "LM-004",
+    "topic": "net_quantity",
+    "field": "netQuantity",
+    "requirement": "rules shall apply to any Package containing a commodity if—\n(a) the net weight or measure of the commodity is ten gram or ten millilitre or\nless, if sold by weight or measure; |\nProvided that the declaration in respect of maximum retail price and net quantity",
+    "matchedKeywords": [
+      "net quantity",
+      "net weight",
+      "quantity",
+      "weight",
+      "measure"
+    ],
+    "section": "CHAPTER V",
+    "sourcePage": 67,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-015",
+    "ruleId": "LM-002",
+    "topic": "maker",
+    "field": null,
+    "requirement": "shall be declared on packages containing 10g to 20g or 10m! to 20mI;\n(b) any package containing fast food items packed by restaurant or hotel and the",
+    "matchedKeywords": [
+      "packed by"
+    ],
+    "section": "CHAPTER V",
+    "sourcePage": 67,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-016",
+    "ruleId": "LM-002",
+    "topic": "maker",
+    "field": null,
+    "requirement": "REGISTRATION OF MANUFACTURERS, PACKERS AND IMPORTERS\n27. Registration of manufacturers, packers and importers.-\n(3) For making any alteration in the registration certificate issued under sub rule (1), a fee of\nrupees one hundred shall be paid by the concerned manufacturer or packer or importer to\n28. Registration of shorter address permissible.-(1) It shall be lawful for any\nmanufacturer or packer to make an application to the Director or the Controller for the",
+    "matchedKeywords": [
+      "manufacturer",
+      "packer",
+      "importer",
+      "packed by"
+    ],
+    "section": "CHAPTER VI",
+    "sourcePage": 68,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-017",
+    "ruleId": "LM-001",
+    "topic": "product_name",
+    "field": "productName",
+    "requirement": "(c) the name of the commodity or commodities pre-packed or imported by the applicant.",
+    "matchedKeywords": [
+      "name of the commodity"
+    ],
+    "section": "CHAPTER VI",
+    "sourcePage": 68,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-018",
+    "ruleId": "LM-003",
+    "topic": "address",
+    "field": "address",
+    "requirement": "application, accompanied by a fee of rupees five hundred, to the Director or the Controller\nfor the registration of his or its name and complete address; and every such application shall\n(b) the complete address of the premises at which the pre-packing or import of one or more\n(c) the name of the commodity or commodities pre-packed or imported by the applicant.\nExplanation: In this sub-rule, ‘complete address’ has the meaning assigned to it in the\n28. Registration of shorter address permissible.-(1) It shall be lawful for any",
+    "matchedKeywords": [
+      "address",
+      "premises"
+    ],
+    "section": "CHAPTER VI",
+    "sourcePage": 68,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-019",
+    "ruleId": "LM-004",
+    "topic": "net_quantity",
+    "field": "netQuantity",
+    "requirement": "31. (1) Any advertisement mentioning the retail sale price of the pre-packaged commodity\nshall contain a declaration as to the net quantity or number of the commodity contained in\nthe package.\n(2)The font size of the net quantity in the advertisement shall be same as that of retail sale\none or more provision of these Rules with such corrective measures as may be specified.\n34. Repeal and savings.- (1) The Standards of Weights and Measures (Packaged",
+    "matchedKeywords": [
+      "net quantity",
+      "net weight",
+      "net content",
+      "quantity",
+      "weight",
+      "volume",
+      "measure"
+    ],
+    "section": "CHAPTER VII",
+    "sourcePage": 70,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-020",
+    "ruleId": "LM-002",
+    "topic": "maker",
+    "field": null,
+    "requirement": "the compounding of a case or a Court decision stated in the application, permit a\nmanufacturer or packer to pack for sale the packages for a reasonable period by relaxing\nadjudication, enquiry or investigation commenced, license and registration of\nmanufacturers, dealers, importers of pre-packaged commodities, or show cause notice,\nGovernment or as the case may be the State Government under the said rules for\nlicence, registration of manufacturers, importers, dealers of pre-packaged commodities",
+    "matchedKeywords": [
+      "manufacturer",
+      "packer",
+      "importer",
+      "packed by"
+    ],
+    "section": "CHAPTER VII",
+    "sourcePage": 70,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  },
+  {
+    "candidateId": "CAND-021",
+    "ruleId": "LM-003",
+    "topic": "address",
+    "field": "address",
+    "requirement": "Part-II - Instructions with regard to the determination of quantity and error at manufacturer's or packer's\npremises.\n(4) If the actual length of the commodity is so great that it is not possible to measure it with the tape measure and a\nsuitable length measuring instrument is available on the premises, that instrument shall be use, after duly calibrating",
+    "matchedKeywords": [
+      "premises"
+    ],
+    "section": "CHAPTER VII",
+    "sourcePage": 70,
+    "sourceDocument": "Legal Metrology (Packaged Commodities) Rules",
+    "status": "pending"
+  }
+]

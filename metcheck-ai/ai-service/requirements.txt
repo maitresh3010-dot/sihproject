@@ -1,0 +1,13 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+python-multipart==0.0.9
+pillow==10.4.0
+pytesseract==0.3.10
+numpy==1.26.4
+pydantic==2.9.2
+pymupdf==1.28.2
+ultralytics==8.3.40
+# NOTE: OpenCV is no longer required. The pipeline uses YOLO panel-crop +
+# PIL-only preprocessing (image_processing/preprocess_yolo.py).
+# The legacy OpenCV path (preprocess_cv.py) remains as an opt-in fallback:
+#   pip install opencv-python-headless==4.10.0.84

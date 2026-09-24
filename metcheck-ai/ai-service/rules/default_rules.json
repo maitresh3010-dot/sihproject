@@ -1,0 +1,93 @@
+[
+  {
+    "ruleId": "LM-001",
+    "name": "Product Name Declaration",
+    "field": "productName",
+    "description": "Check whether the product name declaration is detected.",
+    "category": "GENERAL",
+    "validationType": "REQUIRED",
+    "severity": "HIGH",
+    "active": true,
+    "source": "Legal Metrology reference material"
+  },
+  {
+    "ruleId": "LM-002",
+    "name": "Manufacturer / Packer / Importer Declaration",
+    "field": null,
+    "anyOf": ["manufacturer", "packer", "importer"],
+    "description": "Check whether a manufacturer, packer or importer declaration is detected.",
+    "category": "GENERAL",
+    "validationType": "REQUIRED",
+    "severity": "HIGH",
+    "active": true,
+    "source": "Legal Metrology reference material"
+  },
+  {
+    "ruleId": "LM-003",
+    "name": "Address Declaration",
+    "field": "address",
+    "description": "Check whether the address declaration is detected.",
+    "category": "GENERAL",
+    "validationType": "REQUIRED",
+    "severity": "MEDIUM",
+    "active": true,
+    "source": "Legal Metrology reference material"
+  },
+  {
+    "ruleId": "LM-004",
+    "name": "Net Quantity Declaration",
+    "field": "netQuantity",
+    "description": "Check whether the net quantity declaration with unit is detected.",
+    "category": "GENERAL",
+    "validationType": "REQUIRED",
+    "severity": "HIGH",
+    "active": true,
+    "source": "Legal Metrology reference material"
+  },
+  {
+    "ruleId": "LM-005",
+    "name": "MRP Declaration",
+    "field": "mrp",
+    "description": "Check whether applicable MRP declaration is detected.",
+    "category": "GENERAL",
+    "validationType": "REQUIRED",
+    "severity": "HIGH",
+    "active": true,
+    "source": "Legal Metrology reference material"
+  },
+  {
+    "ruleId": "LM-006",
+    "name": "Manufacture / Packing / Import Date Declaration",
+    "field": null,
+    "anyOf": ["manufacturingDate", "packingDate", "importDate"],
+    "description": "Check whether a manufacturing, packing or import date declaration is detected.",
+    "category": "GENERAL",
+    "validationType": "REQUIRED",
+    "severity": "MEDIUM",
+    "active": true,
+    "source": "Legal Metrology reference material"
+  },
+  {
+    "ruleId": "LM-007",
+    "name": "Consumer Care Declaration",
+    "field": "consumerCare",
+    "description": "Check whether consumer care contact details are detected.",
+    "category": "GENERAL",
+    "validationType": "REQUIRED",
+    "severity": "MEDIUM",
+    "active": true,
+    "source": "Legal Metrology reference material"
+  },
+  {
+    "ruleId": "LM-008",
+    "name": "Expiry / Best-Before Declaration",
+    "field": "expiry",
+    "description": "Check whether an expiry or best-before declaration is detected where applicable.",
+    "category": "GENERAL",
+    "validationType": "OPTIONAL",
+    "severity": "LOW",
+    "active": true,
+    "requiredFor": ["food", "beverages", "cosmetics", "pharmaceuticals"],
+    "source": "Legal Metrology reference material"
+  }
+]

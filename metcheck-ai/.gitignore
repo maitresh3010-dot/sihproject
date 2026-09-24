@@ -1,0 +1,15 @@
+node_modules/
+dist/
+server/uploads/*
+!server/uploads/.gitkeep
+server/data/*.json
+.env
+server/.env
+client/.env
+ai-service/.env
+__pycache__/
+*.pyc
+.venv/
+# client/.env is covered by .env above; examples are committed intentionally
+!client/.env.example
+!server/.env.example
