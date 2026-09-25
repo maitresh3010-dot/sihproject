@@ -1,0 +1,34 @@
+services:
+  # Express backend — needs MONGO_URI for persistence (JSON-file storage is ephemeral on hosts)
+  - type: web
+    name: metcheck-server
+    runtime: docker
+    dockerfilePath: ./metcheck-ai/server/Dockerfile
+    dockerContext: ./metcheck-ai/server
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: JWT_SECRET
+        sync: false # set in Render dashboard — long random string
+      - key: MONGO_URI
+        sync: false # MongoDB Atlas connection string
+      - key: AI_SERVICE_URL
+        value: https://metcheck-ai-service.onrender.com
+      - key: CLIENT_URL
+        value: https://metcheck-ai.vercel.app
+
+  # FastAPI AI service (OCR + rules). YOLO disabled by default for low-RAM hosts.
+  - type: web
+    name: metcheck-ai-service
+    runtime: docker
+    dockerfilePath: ./metcheck-ai/ai-service/Dockerfile
+    dockerContext: ./metcheck-ai/ai-service
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: AI_PORT
+        value: 8001
+      - key: YOLO_ENABLED
+        value: 0

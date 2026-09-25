@@ -36,6 +36,10 @@ app.use(errorMiddleware);
 
 const PORT = process.env.PORT || 5000;
 if (!process.env.JWT_SECRET) console.warn("WARNING: JWT_SECRET is not set — using an insecure dev default. Set it in server/.env.");
-require("./services/storage").init().finally(() => {
-  app.listen(PORT, () => console.log(`LegalMet server on :${PORT}`));
-});
+
+app.ready = require("./services/storage").init();
+if (require.main === module) {
+  app.ready.finally(() => app.listen(PORT, () => console.log(`LegalMet server on :${PORT}`)));
+}
+
+module.exports = app;
