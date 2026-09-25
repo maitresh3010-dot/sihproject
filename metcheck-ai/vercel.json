@@ -3,11 +3,6 @@
   "buildCommand": "npm run build --prefix client",
   "installCommand": "npm install --prefix client && npm install --prefix server",
   "outputDirectory": "client/dist",
-  "functions": {
-    "api/index.js": {
-      "runtime": "nodejs20.x"
-    }
-  },
   "rewrites": [
     { "source": "/api/:path*", "destination": "/api/index.js" },
     { "source": "/(.*)", "destination": "/index.html" }
